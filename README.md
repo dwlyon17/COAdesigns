@@ -4,8 +4,8 @@ This repository is a collection of Component Order of Addition (COA) designs for
 There is one CSV file for each size of design, collected into several zip files.  If you are an R user, you do not need these.  Instead you can use R package ShapCOA, github.com/DWLyon17/ShapCOA, to generate COAs of any size "on the fly." 
 
 For designs of 4 to 100, there is one separate CSV for each and every size.  For sizes of 101 to 227, there is a CSV file only for sizes that are primes or powers of primes.  For other sizes, use the next larger COA and drop all occurrences of extra items.  For example, for 146 items, use the COA for 149 and drop items 147, 148 and 149.  (For sizes of 100 or less, these drops have been done for you to yield one COA for every size from 4 to 100).  This is done to save space since the large designs are so large.  Specific sizes provided for COAs are (in one zip file for each line below):
-   4 to 50, inclusive
-   51 to 80, inclusive  
+   4 to 50, inclusive  
+   51 to 80, inclusive    
    81 to 100, inclusive  
    101 103 107 109 113 121 125 127 128 131 137 139  
    149 151 157 163 167  
